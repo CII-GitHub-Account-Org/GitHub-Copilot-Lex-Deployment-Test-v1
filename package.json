@@ -4,10 +4,10 @@
   "description": "A Node.js application to deploy a Lex bot",
   "main": "src/index.js",
   "scripts": {
-    "deploy": "npx serverless deploy"
+    "deploy": "serverless deploy"
   },
   "dependencies": {
     "aws-sdk": "^2.1031.0",
-    "serverless": "^2.68.0"
+    "serverless": "^2.72.4"
   }
 }
