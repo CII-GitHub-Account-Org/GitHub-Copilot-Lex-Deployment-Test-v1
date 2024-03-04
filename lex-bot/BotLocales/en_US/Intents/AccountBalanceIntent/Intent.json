@@ -1,0 +1,177 @@
+{
+    "name": "AccountBalanceIntent",
+    "identifier": "VK1IR0WUGG",
+    "description": "Intent for providing Account Balance to User",
+    "parentIntentSignature": null,
+    "sampleUtterances": [
+        {
+            "utterance": "I want to check my balance"
+        },
+        {
+            "utterance": "what is my balance"
+        },
+        {
+            "utterance": "show my balance"
+        },
+        {
+            "utterance": "how much money do i have"
+        },
+        {
+            "utterance": "show my money"
+        },
+        {
+            "utterance": "show money in bank"
+        },
+        {
+            "utterance": "i want to check my money"
+        },
+        {
+            "utterance": "total asset i have in my bank"
+        },
+        {
+            "utterance": "show my account balance"
+        },
+        {
+            "utterance": "show my balance in bank"
+        },
+        {
+            "utterance": "money left in my account"
+        },
+        {
+            "utterance": "current balance left in my bank"
+        },
+        {
+            "utterance": "how rich i am"
+        },
+        {
+            "utterance": "how much i can spend"
+        },
+        {
+            "utterance": "total money i can spend in shopping"
+        },
+        {
+            "utterance": "do i have sufficient balance"
+        },
+        {
+            "utterance": "do i have sufficient money in my bank"
+        },
+        {
+            "utterance": "I want to check my {accountType} account balance"
+        },
+        {
+            "utterance": "what is my {accountType} account balance"
+        },
+        {
+            "utterance": "show my {accountType} account balance"
+        },
+        {
+            "utterance": "how much money do i have in my {accountType} account"
+        },
+        {
+            "utterance": "show my money in {accountType} account"
+        },
+        {
+            "utterance": "i want to check my money in {accountType} account"
+        },
+        {
+            "utterance": "show my account {accountType} account balance"
+        },
+        {
+            "utterance": "money left in my {accountType} account"
+        },
+        {
+            "utterance": "I want to check my {accountType} account balance with account number {accountNumber}"
+        },
+        {
+            "utterance": "what is my {accountType} account balance with account number {accountNumber}"
+        },
+        {
+            "utterance": "show my {accountType} account balance with account number {accountNumber}"
+        },
+        {
+            "utterance": "how much money do i have in my {accountType} account with account number {accountNumber}"
+        },
+        {
+            "utterance": "show my money in {accountType} account with account number {accountNumber}"
+        },
+        {
+            "utterance": "i want to check my money in {accountType} account with account number {accountNumber}"
+        },
+        {
+            "utterance": "show my account {accountType} account balance with account number {accountNumber}"
+        },
+        {
+            "utterance": "money left in my {accountType} account with account number {accountNumber}"
+        },
+        {
+            "utterance": "1"
+        },
+        {
+            "utterance": "one"
+        },
+        {
+            "utterance": "yes I want to know my account balance"
+        },
+        {
+            "utterance": "yes please tell my balance"
+        },
+        {
+            "utterance": "yes may I know my balance"
+        },
+        {
+            "utterance": "yes can I know my accound balance"
+        },
+        {
+            "utterance": "will go with {accountIndex} option"
+        },
+        {
+            "utterance": "okay my option is {accountIndex}"
+        },
+        {
+            "utterance": "yeah my option is {accountIndex}"
+        },
+        {
+            "utterance": "sure my option is {accountIndex}"
+        },
+        {
+            "utterance": "I go with {accountIndex}"
+        },
+        {
+            "utterance": "I select {accountIndex}"
+        },
+        {
+            "utterance": "my option is {accountIndex}"
+        },
+        {
+            "utterance": "will go with {accountIndex}"
+        }
+    ],
+    "intentConfirmationSetting": null,
+    "intentClosingSetting": null,
+    "inputContexts": null,
+    "outputContexts": null,
+    "kendraConfiguration": null,
+    "qnAIntentConfiguration": null,
+    "dialogCodeHook": {
+        "enabled": true
+    },
+    "fulfillmentCodeHook": null,
+    "slotPriorities": [
+        {
+            "priority": 2,
+            "slotName": "accountIndex"
+        },
+        {
+            "priority": 3,
+            "slotName": "accountNumber"
+        },
+        {
+            "priority": 4,
+            "slotName": "repeat"
+        },
+        {
+            "priority": 1,
+            "slotName": "accountType"
+        }
+    ]
+}

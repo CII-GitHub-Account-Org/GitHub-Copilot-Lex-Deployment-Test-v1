@@ -1,0 +1,1 @@
+{"name":"fromAccountType","identifier":"TFO95PBWKE","description":null,"slotTypeValues":[{"synonyms":[{"value":"savings,saving"}],"sampleValue":{"value":"SAVINGS"}},{"synonyms":[{"value":"checking,current"}],"sampleValue":{"value":"CHECKING"}}],"parentSlotTypeSignature":null,"valueSelectionSetting":{"resolutionStrategy":"TOP_RESOLUTION","regexFilter":null}}

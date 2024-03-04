@@ -1,0 +1,10 @@
+{
+    "description": "Bot to display the Main Menu including AccountBalance ,Payment , TransferToAgent intents",
+    "identifier": "XN01YFTPQD",
+    "name": "github-copilot-lex-bot-test-v1",
+    "version": "DRAFT",
+    "dataPrivacy": {
+        "childDirected": false
+    },
+    "idleSessionTTLInSeconds": 300
+}

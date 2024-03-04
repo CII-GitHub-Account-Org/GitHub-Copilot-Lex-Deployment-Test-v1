@@ -1,17 +1,14 @@
-service: my-lex-bot-app
+service: github-copilot-lex-bot-test-v1
 
 provider:
   name: aws
   runtime: nodejs18.x
   region: us-east-1
-  stage: ${opt:stage, 'test'}
-  lambdaHashingVersion: 20201221
 
 functions:
-  lexbot:
-    handler: src/index.handler
+  lex-bot:
+    handler: handler.bot
     events:
       - http:
-          path: lexbot
+          path: bot
           method: post
-          cors: true
