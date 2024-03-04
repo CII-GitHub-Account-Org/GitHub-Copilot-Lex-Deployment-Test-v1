@@ -1,0 +1,16 @@
+{
+  "localeId": "en_US",
+  "nluIntentConfidenceThreshold": 0.00,
+  "voiceSettings": {
+    "voiceId": "Salli"
+  },
+  "intents": [
+    {
+      "intentName": "SampleIntent",
+      "intentVersion": "1"
+    }
+  ],
+  "botId": "your_bot_id",
+  "botVersion": "1",
+  "description": "English US locale for the bot"
+}

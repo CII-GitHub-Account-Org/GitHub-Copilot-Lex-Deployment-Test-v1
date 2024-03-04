@@ -1,0 +1,13 @@
+{
+  "name": "my-lex-bot-app",
+  "version": "1.0.0",
+  "description": "A Node.js application to deploy a Lex bot",
+  "main": "src/index.js",
+  "scripts": {
+    "deploy": "npx serverless deploy"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.1031.0",
+    "serverless": "^2.68.0"
+  }
+}
