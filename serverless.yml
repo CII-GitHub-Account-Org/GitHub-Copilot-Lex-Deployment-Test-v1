@@ -12,3 +12,31 @@ functions:
       - http:
           path: bot
           method: post
+resources:
+  Resources:
+    LexBot:
+      Type: AWS::Lex::Bot
+      Properties:
+        Name: MyLexBot
+        Description: My Lex Bot
+        Locale: en-US
+        ChildDirected: false
+        IdleSessionTTLInSeconds: 300
+        VoiceId: Joanna
+        AbortStatement:
+          messages:
+            - content: "Sorry, I can't assist you with that."
+              contentType: PlainText
+        ClarificationPrompt:
+          messages:
+            - content: "I'm sorry, could you please repeat that?"
+              contentType: PlainText
+        ProcessBehavior: BUILD
+        Intents:
+          - IntentName: GreetingIntent
+            IntentVersion: "$LATEST"
+          - IntentName: HelpIntent
+            IntentVersion: "$LATEST"
+        SlotTypes:
+          - SlotTypeName: City
+            SlotTypeVersion: "$LATEST"
