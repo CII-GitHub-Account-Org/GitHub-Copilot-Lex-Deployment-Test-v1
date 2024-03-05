@@ -28,10 +28,12 @@ jobs:
         role-duration-seconds: 900 # optional, defaults to 3600 seconds
         aws-region: us-east-1 # use your region here.
 
-    - name: Deploy Using AWS SAM application
-      uses: aws-actions/setup-sam@v2
-    - run: sam build
-    - run: sam deploy
+    # - name: Deploy Using AWS SAM application
+    #   uses: aws-actions/setup-sam@v2
+    # - run: sam build
+    # - run: sam deploy
+    - name: Deploy AWS Lex Bot
+      run: npx serverless deploy
     
 
 
